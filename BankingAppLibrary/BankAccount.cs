@@ -60,5 +60,10 @@ namespace BankingAppLibrary
             CurrentBalance += amount;
         }
 
+        /// <summary>
+        /// Allows withdrawing funds from the account
+        /// </summary>
+        /// <param name="amount">Amount (CAD) to be withdrawn</param>
+        public abstract void Withdraw(float amount);
     }
 }

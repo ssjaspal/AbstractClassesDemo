@@ -13,6 +13,13 @@ namespace BankingAppLibrary
                 
         }
 
-
+        /// <summary>
+        /// Allows withdrawing funds from the account
+        /// </summary>
+        /// <param name="amount">Amount (CAD) to be withdrawn</param>
+        public override void Withdraw(float amount)
+        {
+            throw new NotImplementedException("Working on the logic for withdrawal");
+        }
     }
 }
