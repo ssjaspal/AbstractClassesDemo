@@ -48,6 +48,11 @@ namespace BankingAppLibrary
             protected set => _currentBalance = value;
         }
 
+        /// <summary>
+        /// The maximum amount that can be withdrawn from this account
+        /// </summary>
+        public abstract float WithdrawalLimit { get; }
+    
 
         /// <summary>
         /// Allows depositing funds in the account

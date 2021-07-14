@@ -14,6 +14,14 @@ namespace BankingAppLibrary
         }
 
         /// <summary>
+        /// The maximum amount that can be withdrawn from this account
+        /// </summary>
+        public override float WithdrawalLimit => CurrentBalance + OverdraftLimit; //computed property
+        // {
+        //     get { return CurrentBalance + OverdraftLimit; }
+        // } 
+
+        /// <summary>
         /// Allows withdrawing funds from the account
         /// </summary>
         /// <param name="amount">Amount (CAD) to be withdrawn</param>
