@@ -2,7 +2,7 @@
 
 namespace BankingAppLibrary
 {
-    class BankAccount
+    public abstract class BankAccount
     {
         private int _accountId;
         private string _accountHolder;

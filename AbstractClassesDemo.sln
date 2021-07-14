@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AbstractClassesDemo", "Abst
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingAppLibrary", "BankingAppLibrary\BankingAppLibrary.csproj", "{36C82E4F-8F41-497E-ACF1-53573A043412}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BankingAppCli", "BankingAppCli\BankingAppCli.csproj", "{D3BB42EA-F4D6-426A-874F-929CA87603B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -67,6 +69,26 @@ Global
 		{36C82E4F-8F41-497E-ACF1-53573A043412}.Release|x64.Build.0 = Release|Any CPU
 		{36C82E4F-8F41-497E-ACF1-53573A043412}.Release|x86.ActiveCfg = Release|Any CPU
 		{36C82E4F-8F41-497E-ACF1-53573A043412}.Release|x86.Build.0 = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|ARM.Build.0 = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|ARM64.ActiveCfg = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|ARM64.Build.0 = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|x64.Build.0 = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Debug|x86.Build.0 = Debug|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|ARM.ActiveCfg = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|ARM.Build.0 = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|ARM64.ActiveCfg = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|ARM64.Build.0 = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|x64.ActiveCfg = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|x64.Build.0 = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|x86.ActiveCfg = Release|Any CPU
+		{D3BB42EA-F4D6-426A-874F-929CA87603B5}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
