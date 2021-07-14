@@ -154,6 +154,12 @@
       <Version>6.2.11</Version>
     </PackageReference>
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BankingAppLibrary\BankingAppLibrary.csproj">
+      <Project>{36c82e4f-8f41-497e-acf1-53573a043412}</Project>
+      <Name>BankingAppLibrary</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
