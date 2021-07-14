@@ -9,6 +9,10 @@ namespace BankingAppCli
         {
             Console.WriteLine("Hello World!");
             BankAccount account;
+            account = new ChecquingAccount(1, "test", 10000);
+            account.Deposit(1000);
+            
+            Console.WriteLine(account.CurrentBalance);
         }
     }
 }
